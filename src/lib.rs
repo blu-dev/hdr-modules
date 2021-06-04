@@ -248,6 +248,8 @@ pub mod consts {
         pub const ITEM_THROW_GLIDE_CHECK:       i32 = 0x2E;
         pub const ATTACK_DASH_CANCEL_DISABLE:   i32 = 0x2F;
         pub const ATTACK_DASH_SLIDEOFF:         i32 = 0x30;
+        pub const PERFECT_WAVEDASH:             i32 = 0x31;
+        pub const SHOULD_WAVELAND:              i32 = 0x32;
 
         // float consts
         pub const ECB_Y_OFFSET:                i32 = 0x0;
