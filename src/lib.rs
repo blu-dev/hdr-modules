@@ -8,7 +8,7 @@ mod modules {
         Shared,
         Agent
     }
-    
+
     extern "Rust" {
         #[link_name = "VarModule__get_int"]
         fn VarModule__get_int(boma: *mut BattleObjectModuleAccessor, what: i32) -> i32;
@@ -18,7 +18,7 @@ mod modules {
         fn VarModule__get_float(boma: *mut BattleObjectModuleAccessor, what: i32) -> f32;
         #[link_name = "VarModule__is_flag"]
         fn VarModule__is_flag(boma: *mut BattleObjectModuleAccessor, what: i32) -> bool;
-    
+
         #[link_name = "VarModule__set_int"]
         fn VarModule__set_int(boma: *mut BattleObjectModuleAccessor, what: i32, value: i32);
         #[link_name = "VarModule__set_int64"]
@@ -31,13 +31,13 @@ mod modules {
         fn VarModule__on_flag(boma: *mut BattleObjectModuleAccessor, what: i32);
         #[link_name = "VarModule__off_flag"]
         fn VarModule__off_flag(boma: *mut BattleObjectModuleAccessor, what: i32);
-    
+
         #[link_name = "VarModule__countdown_int"]
         fn VarModule__countdown_int(boma: *mut BattleObjectModuleAccessor, what: i32, min: i32) -> bool;
         #[link_name = "VarModule__reset"]
         fn VarModule__reset(boma: *mut BattleObjectModuleAccessor, reset_mask: u8);
-    
-        
+
+
         #[link_name = "ParamModule__get_int"]
         fn ParamModule__get_int(boma: *mut BattleObjectModuleAccessor, ty: ParamType, string: &str) -> i32;
         #[link_name = "ParamModule__get_int64"]
@@ -47,119 +47,119 @@ mod modules {
         #[link_name = "ParamModule__get_flag"]
         fn ParamModule__get_flag(boma: *mut BattleObjectModuleAccessor, ty: ParamType, string: &str) -> bool;
     }
-    
-    
+
+
     pub mod VarModule {
         use super::*;
-    
+
         pub const RESET_COMMON_INT:    u8 = 0b00000001;
         pub const RESET_COMMON_INT64:  u8 = 0b00000010;
         pub const RESET_COMMON_FLOAT:  u8 = 0b00000100;
         pub const RESET_COMMON_FLAG:   u8 = 0b00001000;
-    
+
         pub const RESET_FIGHTER_INT:   u8 = 0b00010000;
         pub const RESET_FIGHTER_INT64: u8 = 0b00100000;
         pub const RESET_FIGHTER_FLOAT: u8 = 0b01000000;
         pub const RESET_FIGHTER_FLAG:  u8 = 0b10000000;
-    
+
         pub const RESET_COMMON:  u8 = 0x0F;
         pub const RESET_FIGHTER: u8 = 0xF0;
         pub const RESET_ALL:     u8 = 0xFF;
-    
+
         pub fn get_int(boma: *mut BattleObjectModuleAccessor, what: i32) -> i32 {
             unsafe {
                 VarModule__get_int(boma, what)
             }
         }
-    
+
         pub fn get_int64(boma: *mut BattleObjectModuleAccessor, what: i32) -> u64 {
             unsafe {
                 VarModule__get_int64(boma, what)
             }
         }
-        
+
         pub fn get_float(boma: *mut BattleObjectModuleAccessor, what: i32) -> f32 {
             unsafe {
                 VarModule__get_float(boma, what)
             }
         }
-        
+
         pub fn is_flag(boma: *mut BattleObjectModuleAccessor, what: i32) -> bool {
             unsafe {
                 VarModule__is_flag(boma, what)
             }
         }
-    
+
         pub fn set_int(boma: *mut BattleObjectModuleAccessor, what: i32, value: i32) {
             unsafe {
                 VarModule__set_int(boma, what, value)
             }
         }
-    
+
         pub fn set_int64(boma: *mut BattleObjectModuleAccessor, what: i32, value: u64) {
             unsafe {
                 VarModule__set_int64(boma, what, value)
             }
         }
-    
+
         pub fn set_float(boma: *mut BattleObjectModuleAccessor, what: i32, value: f32) {
             unsafe {
                 VarModule__set_float(boma, what, value)
             }
         }
-    
+
         pub fn set_flag(boma: *mut BattleObjectModuleAccessor, what: i32, value: bool) {
             unsafe {
                 VarModule__set_flag(boma, what, value)
             }
         }
-    
+
         pub fn on_flag(boma: *mut BattleObjectModuleAccessor, what: i32) {
             unsafe {
                 VarModule__on_flag(boma, what)
             }
         }
-    
+
         pub fn off_flag(boma: *mut BattleObjectModuleAccessor, what: i32) {
             unsafe {
                 VarModule__off_flag(boma, what)
             }
         }
-    
+
         pub fn countdown_int(boma: *mut BattleObjectModuleAccessor, what: i32, min: i32) -> bool {
             unsafe {
                 VarModule__countdown_int(boma, what, min)
             }
         }
-    
+
         pub fn reset(boma: *mut BattleObjectModuleAccessor, reset_mask: u8) {
             unsafe {
                 VarModule__reset(boma, reset_mask)
             }
         }
     }
-    
+
     pub mod ParamModule {
         use super::*;
-        
+
         pub fn get_int(boma: *mut BattleObjectModuleAccessor, ty: ParamType, string: &str) -> i32 {
             unsafe {
                 ParamModule__get_int(boma, ty, string)
             }
         }
-        
+
         pub fn get_int64(boma: *mut BattleObjectModuleAccessor, ty: ParamType, string: &str) -> u64 {
             unsafe {
                 ParamModule__get_int64(boma, ty, string)
             }
         }
-        
+
         pub fn get_float(boma: *mut BattleObjectModuleAccessor, ty: ParamType, string: &str) -> f32 {
             unsafe {
                 ParamModule__get_float(boma, ty, string)
             }
         }
-        
+
         pub fn get_flag(boma: *mut BattleObjectModuleAccessor, ty: ParamType, string: &str) -> bool {
             unsafe {
                 ParamModule__get_flag(boma, ty, string)
@@ -269,6 +269,7 @@ pub mod consts {
         pub const SPEED_VEC_X:                 i32 = 0xC;
         pub const SPEED_VEC_Y:                 i32 = 0xD;
         pub const SPEED_VEC_Z:                 i32 = 0xE;
+        pub const GET_DIST_TO_FLOOR:           i32 = 0xF;
 
         // int64 consts
         pub const ATTACK_JAB_CANCEL_MOTION: i32 = 0x0;
