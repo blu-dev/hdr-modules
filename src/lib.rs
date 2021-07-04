@@ -293,6 +293,11 @@ pub mod consts {
         pub use super::roy::SWORD_TRAIL_EFFECT;
         pub const SOARING_SLASH_HIT: i32 = 0x1001;
     }
+    
+    pub mod demon {
+        // flag consts
+        pub const SKIP_ON_GRAB_EVENT: i32 = 0x1000;
+    }
 
     pub mod dolly {
         // int consts
