@@ -250,6 +250,7 @@ pub mod consts {
         pub const ATTACK_DASH_SLIDEOFF:         i32 = 0x30;
         pub const PERFECT_WAVEDASH:             i32 = 0x31;
         pub const SHOULD_WAVELAND:              i32 = 0x32;
+        pub const DISABLE_SHORTHOP:             i32 = 0x33;
 
         // float consts
         pub const ECB_Y_OFFSET:                i32 = 0x0;
