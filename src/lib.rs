@@ -272,6 +272,7 @@ pub mod consts {
         pub const SPEED_VEC_Z:                 i32 = 0xE;
         pub const GET_DIST_TO_FLOOR:           i32 = 0xF;
         pub const Y_POS:                       i32 = 0x10;
+        pub const JUMP_SPEED_RATIO:            i32 = 0x11;
 
         // int64 consts
         pub const ATTACK_JAB_CANCEL_MOTION: i32 = 0x0;
