@@ -197,6 +197,9 @@ pub mod consts {
         pub const ITEM_THROW_FRAME:           i32 = 0x12;
         pub const ATTACK_DASH_CANCEL_FRAME:   i32 = 0x13;
         pub const PREV_FALL_SLOWLY_FRAME:     i32 = 0x14;
+        pub const JUMP_SQUAT_FRAME:           i32 = 0x15;
+        pub const CSTICK_FRAME:               i32 = 0x16;
+
 
         // flag consts
         pub const SPECIAL_IS_REVERSED:          i32 = 0x0;
@@ -251,9 +254,10 @@ pub mod consts {
         pub const ATTACK_DASH_SLIDEOFF:         i32 = 0x30;
         pub const PERFECT_WAVEDASH:             i32 = 0x31;
         pub const SHOULD_WAVELAND:              i32 = 0x32;
-        pub const DISABLE_SHORTHOP:             i32 = 0x33;
+        pub const CSTICK_OVERRIDE:              i32 = 0x33;
         pub const ENABLE_DOUBLE_TRACTION:       i32 = 0x34;
         pub const OMNI_FLOAT:                   i32 = 0x35;
+        pub const CHANGE_JUMP:                  i32 = 0x36;
 
 
         // float consts
@@ -277,6 +281,10 @@ pub mod consts {
         pub const GET_DIST_TO_FLOOR:           i32 = 0xF;
         pub const Y_POS:                       i32 = 0x10;
         pub const JUMP_SPEED_RATIO:            i32 = 0x11;
+        pub const PREV_STICK_Y:                i32 = 0x12;
+        pub const PREV_PREV_STICK_Y:           i32 = 0x13;
+        pub const PREV_ATTACK_AIR_STICK_Y:     i32 = 0x14;
+
 
         // int64 consts
         pub const ATTACK_JAB_CANCEL_MOTION: i32 = 0x0;
