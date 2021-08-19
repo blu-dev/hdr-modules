@@ -257,7 +257,8 @@ pub mod consts {
         pub const CSTICK_OVERRIDE:              i32 = 0x33;
         pub const ENABLE_DOUBLE_TRACTION:       i32 = 0x34;
         pub const OMNI_FLOAT:                   i32 = 0x35;
-        pub const CHANGE_JUMP:                  i32 = 0x36;
+        pub const FORCE_SHORTHOP:               i32 = 0x36;
+        pub const PREV_FLAG_FALL_SLOWLY:        i32 = 0x37;
 
 
         // float consts
@@ -281,9 +282,7 @@ pub mod consts {
         pub const GET_DIST_TO_FLOOR:           i32 = 0xF;
         pub const Y_POS:                       i32 = 0x10;
         pub const JUMP_SPEED_RATIO:            i32 = 0x11;
-        pub const PREV_STICK_Y:                i32 = 0x12;
-        pub const PREV_PREV_STICK_Y:           i32 = 0x13;
-        pub const PREV_ATTACK_AIR_STICK_Y:     i32 = 0x14;
+        pub const ROLL_DIR:                    i32 = 0x12;
 
 
         // int64 consts
