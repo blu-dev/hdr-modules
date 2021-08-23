@@ -258,7 +258,6 @@ pub mod consts {
         pub const ENABLE_DOUBLE_TRACTION:       i32 = 0x34;
         pub const OMNI_FLOAT:                   i32 = 0x35;
         pub const FORCE_SHORTHOP:               i32 = 0x36;
-        pub const PREV_FLAG_FALL_SLOWLY:        i32 = 0x37;
 
 
         // float consts
@@ -283,6 +282,7 @@ pub mod consts {
         pub const Y_POS:                       i32 = 0x10;
         pub const JUMP_SPEED_RATIO:            i32 = 0x11;
         pub const ROLL_DIR:                    i32 = 0x12;
+
 
 
         // int64 consts
@@ -382,6 +382,15 @@ pub mod consts {
         pub const SPECIAL_HI_HIT: i32 = 0x1001;
         pub const SPECIAL_S_HIT:  i32 = 0x1002;
         pub const SPECIAL_LW_HIT: i32 = 0x1003;
+    }
+
+    pub mod miiswordsman {
+        // flag consts
+        pub use super::ike::SPECIAL_WALL_JUMP;
+        pub use super::link::SPIN_ATTACK_LAND_CANCEL;
+        pub use super::ryu::IS_HEAVY_ATTACK;
+        pub const SKYWARD_SLASH_DASH_HIT: i32 = 0x1000;
+
     }
 
     pub mod palutena {
