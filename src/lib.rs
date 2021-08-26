@@ -258,6 +258,7 @@ pub mod consts {
         pub const ENABLE_DOUBLE_TRACTION:       i32 = 0x34;
         pub const OMNI_FLOAT:                   i32 = 0x35;
         pub const FORCE_SHORTHOP:               i32 = 0x36;
+        pub const CSTICK_OVERRIDE_SECOND:       i32 = 0x37;
 
 
         // float consts
