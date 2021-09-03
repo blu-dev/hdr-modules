@@ -259,6 +259,7 @@ pub mod consts {
         pub const OMNI_FLOAT:                   i32 = 0x35;
         pub const FORCE_SHORTHOP:               i32 = 0x36;
         pub const CSTICK_OVERRIDE_SECOND:       i32 = 0x37;
+        pub const UP_SPECIAL_JUMP_REFRESH:      i32 = 0x38;
 
 
         // float consts
@@ -391,6 +392,7 @@ pub mod consts {
         pub use super::link::SPIN_ATTACK_LAND_CANCEL;
         pub use super::ryu::IS_HEAVY_ATTACK;
         pub const SKYWARD_SLASH_DASH_HIT: i32 = 0x1000;
+        pub const GALE_STAB_EDGE_CANCEL:  i32 = 0x1001;
 
     }
 
