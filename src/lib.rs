@@ -261,6 +261,7 @@ pub mod consts {
         pub const CSTICK_OVERRIDE_SECOND:          i32 = 0x37;
         pub const UP_SPECIAL_JUMP_REFRESH_WINDOW:  i32 = 0x38;
         pub const DISABLE_UP_SPECIAL_JUMP_REFRESH: i32 = 0x39;
+        pub const CHANGE_JUMP:                     i32 = 0x3A;
 
 
         // float consts
