@@ -395,9 +395,10 @@ pub mod consts {
         pub use super::ike::SPECIAL_WALL_JUMP;
         pub use super::link::SPIN_ATTACK_LAND_CANCEL;
         pub use super::ryu::IS_HEAVY_ATTACK;
-        pub const SKYWARD_SLASH_DASH_HIT: i32 = 0x1000;
-        pub const GALE_STAB_EDGE_CANCEL:  i32 = 0x1001;
+        pub const SKYWARD_SLASH_DASH_HIT:     i32 = 0x1000;
+        pub const GALE_STAB_EDGE_CANCEL:      i32 = 0x1001;
         pub const SPECIAL_LW1_ATTACK_TRIGGER: i32 = 0x1002;
+        pub const WAVE_SPECIAL_N:             i32 = 0x1003;
 
     }
 
