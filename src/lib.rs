@@ -286,6 +286,8 @@ pub mod consts {
         pub const Y_POS:                       i32 = 0x10;
         pub const JUMP_SPEED_RATIO:            i32 = 0x11;
         pub const ROLL_DIR:                    i32 = 0x12;
+        pub const ESCAPE_AIR_SLIDE_SPEED_X:    i32 = 0x13;
+        pub const ESCAPE_AIR_SLIDE_SPEED_Y:    i32 = 0x14;
 
 
 
