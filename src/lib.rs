@@ -263,6 +263,7 @@ pub mod consts {
         pub const DISABLE_UP_SPECIAL_JUMP_REFRESH: i32 = 0x39;
         pub const CHANGE_JUMP:                     i32 = 0x3A;
         pub const PREV_FLAG_DISABLE_ESCAPE_AIR:    i32 = 0x3B;
+        pub const ENABLE_WAVELAND_PLATDROP:        i32 = 0x3C;
 
 
         // float consts
