@@ -199,7 +199,6 @@ pub mod consts {
         pub const PREV_FALL_SLOWLY_FRAME:     i32 = 0x14;
         pub const JUMP_SQUAT_FRAME:           i32 = 0x15;
         pub const CSTICK_FRAME:               i32 = 0x16;
-        pub const WAVELAND_PLATDROP_FRAME:    i32 = 0x17;
 
 
         // flag consts
@@ -264,6 +263,7 @@ pub mod consts {
         pub const DISABLE_UP_SPECIAL_JUMP_REFRESH: i32 = 0x39;
         pub const CHANGE_JUMP:                     i32 = 0x3A;
         pub const PREV_FLAG_DISABLE_ESCAPE_AIR:    i32 = 0x3B;
+        pub const ENABLE_WAVELAND_PLATDROP:        i32 = 0x3C;
 
 
         // float consts
