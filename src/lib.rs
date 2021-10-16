@@ -291,7 +291,8 @@ pub mod consts {
         pub const ESCAPE_AIR_SLIDE_SPEED_X:    i32 = 0x13;
         pub const ESCAPE_AIR_SLIDE_SPEED_Y:    i32 = 0x14;
 
-
+        // generic consts
+        pub const HITFALL_BUFFER:              i32 = 0x0; // VecDeque<bool>
 
         // int64 consts
         pub const ATTACK_JAB_CANCEL_MOTION: i32 = 0x0;
