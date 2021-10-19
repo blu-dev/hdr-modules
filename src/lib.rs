@@ -317,6 +317,9 @@ pub mod consts {
     }
     
     pub mod demon {
+        // int consts
+        pub const GRABBED_OBJECT_ID: i32 = 0x1000;
+
         // flag consts
         pub const SKIP_ON_GRAB_EVENT: i32 = 0x1000;
     }
