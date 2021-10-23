@@ -482,6 +482,12 @@ pub mod consts {
         pub use super::link::SPIN_ATTACK_LAND_CANCEL;
     }
 
+    pub mod trail {
+        // flag consts
+        pub const ATTACK_LW_4_AERIAL:        i32 = 0x1000;
+        pub const ATTACK_LW_4_AERIAL_CANCEL: i32 = 0x1001;
+    }
+
     pub mod yoshi {
         // float consts
         pub const JUMP_AERIAL_FRAME: i32 = 0x1000;
