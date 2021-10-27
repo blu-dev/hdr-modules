@@ -545,7 +545,7 @@ pub mod consts {
         // 0x26
         // 0x27
         // 0x28 some substatus
-        // 0x29 some substatus
+        pub const DASH_CALLBACK:         i32 = 0x29;
         // 0x2A
         pub const CUSTOM_ROUTINE:        i32 = 0x2B;
         // 0x2C
@@ -555,5 +555,6 @@ pub mod consts {
         // 0x30
         // 0x31
         // 0x32 some substatus
+        pub const DASH_POST_TRANSITION_CALLBACK: i32 = 0x57;
     }
 }
