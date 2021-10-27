@@ -291,7 +291,8 @@ pub mod consts {
         pub const ESCAPE_AIR_SLIDE_SPEED_X:    i32 = 0x13;
         pub const ESCAPE_AIR_SLIDE_SPEED_Y:    i32 = 0x14;
 
-
+        // generic consts
+        pub const HITFALL_BUFFER:              i32 = 0x0; // VecDeque<bool>
 
         // int64 consts
         pub const ATTACK_JAB_CANCEL_MOTION: i32 = 0x0;
@@ -397,13 +398,13 @@ pub mod consts {
         pub const SPECIAL_LW1_CHARGE_LEVEL:  i32 = 0x1000;
 
         // flag consts
-        pub use super::ike::SPECIAL_WALL_JUMP;
-        pub use super::link::SPIN_ATTACK_LAND_CANCEL;
-        pub use super::ryu::IS_HEAVY_ATTACK;
-        pub const SKYWARD_SLASH_DASH_HIT:     i32 = 0x1000;
-        pub const GALE_STAB_EDGE_CANCEL:      i32 = 0x1001;
-        pub const SPECIAL_LW1_ATTACK_TRIGGER: i32 = 0x1002;
-        pub const WAVE_SPECIAL_N:             i32 = 0x1003;
+        pub const SPECIAL_WALL_JUMP:          i32 = 0x1000;
+        pub const SPIN_ATTACK_LAND_CANCEL:    i32 = 0x1001;
+        pub const IS_HEAVY_ATTACK:            i32 = 0x1002;
+        pub const SKYWARD_SLASH_DASH_HIT:     i32 = 0x1003;
+        pub const GALE_STAB_EDGE_CANCEL:      i32 = 0x1004;
+        pub const SPECIAL_LW1_ATTACK_TRIGGER: i32 = 0x1005;
+        pub const WAVE_SPECIAL_N:             i32 = 0x1006;
 
     }
 
@@ -479,6 +480,12 @@ pub mod consts {
 
     pub mod toonlink {
         pub use super::link::SPIN_ATTACK_LAND_CANCEL;
+    }
+
+    pub mod trail {
+        // flag consts
+        pub const ATTACK_LW_4_AERIAL:        i32 = 0x1000;
+        pub const ATTACK_LW_4_AERIAL_CANCEL: i32 = 0x1001;
     }
 
     pub mod yoshi {
