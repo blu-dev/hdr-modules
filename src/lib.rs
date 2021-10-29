@@ -199,6 +199,7 @@ pub mod consts {
         pub const PREV_FALL_SLOWLY_FRAME:     i32 = 0x14;
         pub const JUMP_SQUAT_FRAME:           i32 = 0x15;
         pub const CSTICK_FRAME:               i32 = 0x16;
+        pub const TURN_DASH_FRAME:            i32 = 0x17;
 
 
         // flag consts
@@ -220,7 +221,7 @@ pub mod consts {
         pub const FLOAT_PAUSE_AERIAL:              i32 = 0xF;
         pub const AERIAL_NO_FLOAT:                 i32 = 0x10;
         pub const IS_MOONWALK:                     i32 = 0x11;
-        pub const IS_MOONKWALK_JUMP:               i32 = 0x12;
+        pub const IS_STICKY_WALK:                  i32 = 0x12;
         pub const MAGIC_JAB_DA_CHECK:              i32 = 0x13;
         pub const MAGIC_TILT_CHECK:                i32 = 0x14;
         pub const MAGIC_SMASH_CHECK:               i32 = 0x15;
@@ -264,6 +265,7 @@ pub mod consts {
         pub const CHANGE_JUMP:                     i32 = 0x3A;
         pub const PREV_FLAG_DISABLE_ESCAPE_AIR:    i32 = 0x3B;
         pub const ENABLE_WAVELAND_PLATDROP:        i32 = 0x3C;
+        pub const ENABLE_BOOST_RUN:                i32 = 0x3D;
 
 
         // float consts
@@ -290,6 +292,8 @@ pub mod consts {
         pub const ROLL_DIR:                    i32 = 0x12;
         pub const ESCAPE_AIR_SLIDE_SPEED_X:    i32 = 0x13;
         pub const ESCAPE_AIR_SLIDE_SPEED_Y:    i32 = 0x14;
+        pub const CURR_DASH_SPEED:             i32 = 0x15;
+        pub const MOONWALK_SPEED:              i32 = 0x16;
 
         // generic consts
         pub const HITFALL_BUFFER:              i32 = 0x0; // VecDeque<bool>
