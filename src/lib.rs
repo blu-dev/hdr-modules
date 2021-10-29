@@ -266,6 +266,7 @@ pub mod consts {
         pub const PREV_FLAG_DISABLE_ESCAPE_AIR:    i32 = 0x3B;
         pub const ENABLE_WAVELAND_PLATDROP:        i32 = 0x3C;
         pub const ENABLE_BOOST_RUN:                i32 = 0x3D;
+        pub const ENABLE_REDUCED_LANDING_LAG:      i32 = 0x3E;
 
 
         // float consts
