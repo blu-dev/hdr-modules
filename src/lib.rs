@@ -266,7 +266,8 @@ pub mod consts {
         pub const PREV_FLAG_DISABLE_ESCAPE_AIR:    i32 = 0x3B;
         pub const ENABLE_WAVELAND_PLATDROP:        i32 = 0x3C;
         pub const ENABLE_BOOST_RUN:                i32 = 0x3D;
-        pub const IS_MOONWALK_JUMP:                i32 = 0x3E;
+        pub const ENABLE_REDUCED_LANDING_LAG:      i32 = 0x3E;
+        pub const IS_MOONWALK_JUMP:                i32 = 0x3F;
 
 
         // float consts
@@ -295,6 +296,7 @@ pub mod consts {
         pub const ESCAPE_AIR_SLIDE_SPEED_Y:    i32 = 0x14;
         pub const CURR_DASH_SPEED:             i32 = 0x15;
         pub const MOONWALK_SPEED:              i32 = 0x16;
+        pub const ORIGINAL_LANDING_LAG:         i32 = 0x17;
 
         // generic consts
         pub const HITFALL_BUFFER:              i32 = 0x0; // VecDeque<bool>
