@@ -268,6 +268,7 @@ pub mod consts {
         pub const ENABLE_BOOST_RUN:                i32 = 0x3D;
         pub const ENABLE_REDUCED_LANDING_LAG:      i32 = 0x3E;
         pub const IS_MOONWALK_JUMP:                i32 = 0x3F;
+        pub const IS_BACKDASH:                     i32 = 0x40;
 
 
         // float consts
