@@ -269,6 +269,7 @@ pub mod consts {
         pub const ENABLE_REDUCED_LANDING_LAG:      i32 = 0x3E;
         pub const IS_MOONWALK_JUMP:                i32 = 0x3F;
         pub const IS_BACKDASH:                     i32 = 0x40;
+        pub const IS_TURNDASH_INPUT:               i32 = 0x41;
 
 
         // float consts
