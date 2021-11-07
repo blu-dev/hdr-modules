@@ -300,6 +300,7 @@ pub mod consts {
         pub const MOONWALK_SPEED:              i32 = 0x16;
         pub const ORIGINAL_LANDING_LAG:        i32 = 0x17;
         pub const LAST_CLEARED_FRAME:          i32 = 0x18;
+        pub const ORIGINAL_WHIFFLAG_RATE:      i32 = 0x19;
 
         // generic consts
         pub const HITFALL_BUFFER:              i32 = 0x0; // VecDeque<bool>
