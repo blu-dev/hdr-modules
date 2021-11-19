@@ -418,6 +418,7 @@ pub mod consts {
         pub const GALE_STAB_EDGE_CANCEL:      i32 = 0x1004;
         pub const SPECIAL_LW1_ATTACK_TRIGGER: i32 = 0x1005;
         pub const WAVE_SPECIAL_N:             i32 = 0x1006;
+        pub const CHAKRAM_STICK_ATTACK:       i32 = 0x1007;
 
     }
 
