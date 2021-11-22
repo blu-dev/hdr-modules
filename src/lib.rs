@@ -272,6 +272,7 @@ pub mod consts {
         pub const IS_TURNDASH_INPUT:               i32 = 0x41;
         pub const CHANGE_WHIFF_MOTION_RATE:        i32 = 0x42;
         pub const IS_LATE_PIVOT:                   i32 = 0x43;
+        pub const DISABLE_BACKDASH:                i32 = 0x44;
 
 
         // float consts
