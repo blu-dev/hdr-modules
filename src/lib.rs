@@ -273,6 +273,7 @@ pub mod consts {
         pub const CHANGE_WHIFF_MOTION_RATE:        i32 = 0x42;
         pub const IS_LATE_PIVOT:                   i32 = 0x43;
         pub const DISABLE_BACKDASH:                i32 = 0x44;
+        pub const ENABLE_BIDOU:                    i32 = 0x45;
 
 
         // float consts
