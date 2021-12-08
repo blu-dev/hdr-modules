@@ -200,6 +200,7 @@ pub mod consts {
         pub const JUMP_SQUAT_FRAME:           i32 = 0x15;
         pub const CSTICK_FRAME:               i32 = 0x16;
         pub const TURN_DASH_FRAME:            i32 = 0x17;
+        pub const HITFALL_BUFFER:             i32 = 0x18;
 
 
         // flag consts
@@ -274,7 +275,6 @@ pub mod consts {
         pub const IS_LATE_PIVOT:                   i32 = 0x43;
         pub const DISABLE_BACKDASH:                i32 = 0x44;
         pub const ENABLE_BIDOU:                    i32 = 0x45;
-        pub const HITFALL_BUFFER:                  i32 = 0x46;
 
 
         // float consts
