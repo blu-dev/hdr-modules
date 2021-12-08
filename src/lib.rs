@@ -274,6 +274,7 @@ pub mod consts {
         pub const IS_LATE_PIVOT:                   i32 = 0x43;
         pub const DISABLE_BACKDASH:                i32 = 0x44;
         pub const ENABLE_BIDOU:                    i32 = 0x45;
+        pub const HITFALL_BUFFER:                  i32 = 0x46;
 
 
         // float consts
@@ -305,9 +306,6 @@ pub mod consts {
         pub const ORIGINAL_LANDING_LAG:        i32 = 0x17;
         pub const LAST_CLEARED_FRAME:          i32 = 0x18;
         pub const ORIGINAL_WHIFFLAG_RATE:      i32 = 0x19;
-
-        // generic consts
-        pub const HITFALL_BUFFER:              i32 = 0x0; // VecDeque<bool>
 
         // int64 consts
         pub const ATTACK_JAB_CANCEL_MOTION: i32 = 0x0;
