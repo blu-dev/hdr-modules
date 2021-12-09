@@ -306,6 +306,7 @@ pub mod consts {
         pub const ORIGINAL_LANDING_LAG:        i32 = 0x17;
         pub const LAST_CLEARED_FRAME:          i32 = 0x18;
         pub const ORIGINAL_WHIFFLAG_RATE:      i32 = 0x19;
+        pub const ANGLE_GRAB_STICK_Y           i32 = 0x20;
 
         // int64 consts
         pub const ATTACK_JAB_CANCEL_MOTION: i32 = 0x0;
