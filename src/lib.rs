@@ -332,7 +332,10 @@ pub mod consts {
     
     pub mod demon {
         // flag consts
-        pub const SKIP_ON_GRAB_EVENT: i32 = 0x1000;
+        pub const SKIP_ON_GRAB_EVENT:  i32 = 0x1000;
+        pub const SLAUGHTER_HIGH_KICK: i32 = 0x1001;
+        pub const JAW_BREAKER:         i32 = 0x1001;
+        pub const SPINNING_DEMON:      i32 = 0x1001;
     }
 
     pub mod dolly {
