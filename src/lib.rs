@@ -392,6 +392,8 @@ pub mod consts {
         pub const AERIAL_CMD_RISEN:          i32 = 0x1001;
         pub const AERIAL_CMD_MOMENTUM_RESET: i32 = 0x1002;
         pub const NOKNOK_SHELL:              i32 = 0x1003;
+        pub const FIREBRAND_ACTIVATED:    i32 = 0x1004;
+        pub const DOUBLE_FIREBALL:        i32 = 0x1004;
     }
 
     pub mod master {
@@ -501,6 +503,7 @@ pub mod consts {
         // flag consts
         pub const ATTACK_LW_4_AERIAL:        i32 = 0x1000;
         pub const ATTACK_LW_4_AERIAL_CANCEL: i32 = 0x1001;
+        pub const ATTACK_12_INTO_S3:         i32 = 0x1002;
     }
 
     pub mod yoshi {
