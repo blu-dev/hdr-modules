@@ -275,6 +275,7 @@ pub mod consts {
         pub const IS_LATE_PIVOT:                   i32 = 0x43;
         pub const DISABLE_BACKDASH:                i32 = 0x44;
         pub const ENABLE_BIDOU:                    i32 = 0x45;
+        pub const DISABLE_AIRDODGE:                i32 = 0x46;
 
 
         // float consts
