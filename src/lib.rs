@@ -276,6 +276,7 @@ pub mod consts {
         pub const DISABLE_BACKDASH:                i32 = 0x44;
         pub const ENABLE_BIDOU:                    i32 = 0x45;
         pub const DISABLE_AIRDODGE:                i32 = 0x46;
+        pub const IS_DACUS:                        i32 = 0x47;
 
 
         // float consts
