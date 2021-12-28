@@ -366,6 +366,11 @@ pub mod consts {
         pub use super::ryu::IS_HEAVY_ATTACK;
     }
 
+    pub mod kamui {
+        // flag consts
+        pub const BAIR_BOOST: i32 = 0x1000;
+    }
+
     pub mod kirby {
         // flag consts
         pub const STAR_ROD_CONSUMED: i32 = 0x1000;
@@ -461,6 +466,16 @@ pub mod consts {
     pub mod pikachu {
         // flag consts
         pub const DISABLE_SPECIAL_JUMP_CANCEL: i32 = 0x1000;
+    }
+
+    pub mod robot {
+        // flag consts
+        pub const BOOST_ATTACK: i32 = 0x1000;
+    }
+
+    pub mod rockman {
+        // flag consts
+        pub const DETONATE_CRASHBOMB: i32 = 0x1000;
     }
 
     pub mod roy {
