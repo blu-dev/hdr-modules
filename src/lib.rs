@@ -438,6 +438,10 @@ pub mod consts {
     pub mod palutena {
         // flag consts
         pub use super::ike::SPECIAL_WALL_JUMP;
+        pub const SPECIAL_LW_AEGIS_REFLECTOR: i32 = 0x1010;
+
+        // float consts
+        pub const SPECIAL_LW_LR: i32 = 0x1000;
     }
 
     pub mod peach {
