@@ -277,6 +277,7 @@ pub mod consts {
         pub const ENABLE_BIDOU:                    i32 = 0x45;
         pub const DISABLE_AIRDODGE:                i32 = 0x46;
         pub const IS_DACUS:                        i32 = 0x47;
+        pub const IS_TAP_JUMP:                     i32 = 0x48;
 
 
         // float consts
