@@ -526,9 +526,12 @@ pub mod consts {
 
     pub mod trail {
         // flag consts
-        pub const ATTACK_LW_4_AERIAL:        i32 = 0x1000;
-        pub const ATTACK_LW_4_AERIAL_CANCEL: i32 = 0x1001;
-        pub const ATTACK_12_INTO_S3:         i32 = 0x1002;
+        pub const ATTACK_LW_4_AERIAL:         i32 = 0x1000;
+        pub const ATTACK_LW_4_AERIAL_CANCEL:  i32 = 0x1001;
+        pub const ATTACK_12_INTO_S3:          i32 = 0x1002;
+        pub const SIDE_SPECIAL_HIT:           i32 = 0x1003;
+        pub const UP_SPECIAL_TO_SIDE_SPECIAL: i32 = 0x1004;
+        pub const IS_SIDE_SPECIAL_INPUT:      i32 = 0x1005;
     }
 
     pub mod yoshi {
